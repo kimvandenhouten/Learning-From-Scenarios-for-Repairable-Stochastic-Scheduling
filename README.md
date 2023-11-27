@@ -50,6 +50,7 @@ Large industry instances: time budget: 2_i instances 4800 sec, 60_i instances 36
 
 ## Experiments scripts
 
+The experiments files can be found in the experiment_scripts folder where there exists a separate folder for the industry experiments and the PSPlib experiments. Note that before running one should ensure that the settings are given as desired. Besides the scripts that run the different algorithms (run_deterministic.py, run_stochastic.py, run_SFGE.py), there are also scripts to visualize the results (plot_normalized.py to get an overview per instance, and plot_summarized.py to get the aggregated boxplots). These plots can also without running be found in the plots folder.
 
 ## Results
 
