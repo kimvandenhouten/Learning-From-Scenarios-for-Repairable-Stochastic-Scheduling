@@ -1,0 +1,160 @@
+For j30 and penalty type small and comparing deterministic and stochastic with alpha 0.05
+T-statistic: 3.240685221882208
+P-value: 0.0029902024637428076
+The difference is statistically significant.
+stochastic has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For j30 and penalty type small and comparing deterministic and decision-focused with alpha 0.05
+T-statistic: 3.2294842411603484
+P-value: 0.003077324212001507
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For j30 and penalty type small and comparing stochastic and decision-focused with alpha 0.05
+T-statistic: 0.05198840441901219
+P-value: 0.9588943958450563
+The difference is not statistically significant. No conclusive evidence.
+
+
+For j30 and penalty type large and comparing deterministic and stochastic with alpha 0.05
+T-statistic: 18.426717291750982
+P-value: 1.493765938080731e-17
+The difference is statistically significant.
+stochastic has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For j30 and penalty type large and comparing deterministic and decision-focused with alpha 0.05
+T-statistic: 17.053963498940647
+P-value: 1.173659947899294e-16
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For j30 and penalty type large and comparing stochastic and decision-focused with alpha 0.05
+T-statistic: -5.002699160521696
+P-value: 2.5176705373803876e-05
+The difference is statistically significant.
+stochastic has a statistically significantly lower test_loss (better performance) than decision-focused.
+
+
+For j90 and penalty type small and comparing deterministic and stochastic with alpha 0.05
+T-statistic: -1.9116564974586372
+P-value: 0.065847241505217
+The difference is not statistically significant. No conclusive evidence.
+
+
+For j90 and penalty type small and comparing deterministic and decision-focused with alpha 0.05
+T-statistic: 2.3191385591365936
+P-value: 0.027634380597984468
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For j90 and penalty type small and comparing stochastic and decision-focused with alpha 0.05
+T-statistic: 2.5789266905694643
+P-value: 0.015250565977714126
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than stochastic.
+
+
+For j90 and penalty type large and comparing deterministic and stochastic with alpha 0.05
+T-statistic: 2.210076693247288
+P-value: 0.03514735212000246
+The difference is statistically significant.
+stochastic has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For j90 and penalty type large and comparing deterministic and decision-focused with alpha 0.05
+T-statistic: 12.754530362624703
+P-value: 2.030608815114718e-13
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For j90 and penalty type large and comparing stochastic and decision-focused with alpha 0.05
+T-statistic: 1.9728028607568218
+P-value: 0.05811850453036793
+The difference is not statistically significant. No conclusive evidence.
+
+
+For industry_small and penalty type small and comparing deterministic and stochastic with alpha 0.05
+T-statistic: 0.8589814791315652
+P-value: 0.4048187499800554
+The difference is not statistically significant. No conclusive evidence.
+
+
+For industry_small and penalty type small and comparing deterministic and decision-focused with alpha 0.05
+T-statistic: 4.697547551590959
+P-value: 0.0003427765270939237
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For industry_small and penalty type small and comparing stochastic and decision-focused with alpha 0.05
+T-statistic: 0.8514476998212188
+P-value: 0.40884903686501306
+The difference is not statistically significant. No conclusive evidence.
+
+
+For industry_small and penalty type large and comparing deterministic and stochastic with alpha 0.05
+T-statistic: 4.07256412039788
+P-value: 0.0011417304769282316
+The difference is statistically significant.
+stochastic has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For industry_small and penalty type large and comparing deterministic and decision-focused with alpha 0.05
+T-statistic: 4.132930434959112
+P-value: 0.0010147775731345003
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For industry_small and penalty type large and comparing stochastic and decision-focused with alpha 0.05
+T-statistic: -2.0566333671612864
+P-value: 0.05885750190585158
+The difference is not statistically significant. No conclusive evidence.
+
+
+For industry_large and penalty type small and comparing deterministic and stochastic with alpha 0.05
+T-statistic: -2.301816500036627
+P-value: 0.030330864538420432
+The difference is statistically significant.
+deterministic has a statistically significantly lower test_loss (better performance) than stochastic.
+
+
+For industry_large and penalty type small and comparing deterministic and decision-focused with alpha 0.05
+T-statistic: 6.349560289846262
+P-value: 1.4517628960605433e-06
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For industry_large and penalty type small and comparing stochastic and decision-focused with alpha 0.05
+T-statistic: 3.2055558665448074
+P-value: 0.003789362203289954
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than stochastic.
+
+
+For industry_large and penalty type large and comparing deterministic and stochastic with alpha 0.05
+T-statistic: -2.5806329335523785
+P-value: 0.029665804323899387
+The difference is statistically significant.
+deterministic has a statistically significantly lower test_loss (better performance) than stochastic.
+
+
+For industry_large and penalty type large and comparing deterministic and decision-focused with alpha 0.05
+T-statistic: 32.73394473985754
+P-value: 1.1403138294249572e-10
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than deterministic.
+
+
+For industry_large and penalty type large and comparing stochastic and decision-focused with alpha 0.05
+T-statistic: 3.030475095405739
+P-value: 0.014235732215561021
+The difference is statistically significant.
+decision-focused has a statistically significantly lower test_loss (better performance) than stochastic.

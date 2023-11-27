@@ -1,0 +1,2602 @@
+{
+    "deadlines": [
+        0
+    ],
+    "earliest_start": null,
+    "factory": {
+        "capacity": [
+            12,
+            12,
+            13,
+            12
+        ],
+        "name": "j3037_2",
+        "products": [
+            {
+                "activities": [
+                    {
+                        "distribution": {
+                            "default": 0,
+                            "type": "DEFAULT"
+                        },
+                        "id": 0,
+                        "needs": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "processing_time": [
+                            0,
+                            0
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 3,
+                            "type": "NORMAL",
+                            "variance": 1.7320508075688772
+                        },
+                        "id": 1,
+                        "needs": [
+                            0,
+                            0,
+                            0,
+                            3
+                        ],
+                        "processing_time": [
+                            3,
+                            3
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 2,
+                            "type": "NORMAL",
+                            "variance": 1.4142135623730951
+                        },
+                        "id": 2,
+                        "needs": [
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        "processing_time": [
+                            2,
+                            2
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 8,
+                            "type": "NORMAL",
+                            "variance": 2.8284271247461903
+                        },
+                        "id": 3,
+                        "needs": [
+                            0,
+                            7,
+                            7,
+                            0
+                        ],
+                        "processing_time": [
+                            8,
+                            8
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 4,
+                            "type": "NORMAL",
+                            "variance": 2.0
+                        },
+                        "id": 4,
+                        "needs": [
+                            2,
+                            0,
+                            9,
+                            6
+                        ],
+                        "processing_time": [
+                            4,
+                            4
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 3,
+                            "type": "NORMAL",
+                            "variance": 1.7320508075688772
+                        },
+                        "id": 5,
+                        "needs": [
+                            0,
+                            0,
+                            8,
+                            0
+                        ],
+                        "processing_time": [
+                            3,
+                            3
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 4,
+                            "type": "NORMAL",
+                            "variance": 2.0
+                        },
+                        "id": 6,
+                        "needs": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "processing_time": [
+                            4,
+                            4
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 1,
+                            "type": "NORMAL",
+                            "variance": 1.0
+                        },
+                        "id": 7,
+                        "needs": [
+                            9,
+                            0,
+                            0,
+                            0
+                        ],
+                        "processing_time": [
+                            1,
+                            1
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 5,
+                            "type": "NORMAL",
+                            "variance": 2.23606797749979
+                        },
+                        "id": 8,
+                        "needs": [
+                            0,
+                            0,
+                            3,
+                            0
+                        ],
+                        "processing_time": [
+                            5,
+                            5
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 3,
+                            "type": "NORMAL",
+                            "variance": 1.7320508075688772
+                        },
+                        "id": 9,
+                        "needs": [
+                            4,
+                            0,
+                            8,
+                            0
+                        ],
+                        "processing_time": [
+                            3,
+                            3
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 4,
+                            "type": "NORMAL",
+                            "variance": 2.0
+                        },
+                        "id": 10,
+                        "needs": [
+                            2,
+                            0,
+                            4,
+                            4
+                        ],
+                        "processing_time": [
+                            4,
+                            4
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 2,
+                            "type": "NORMAL",
+                            "variance": 1.4142135623730951
+                        },
+                        "id": 11,
+                        "needs": [
+                            5,
+                            3,
+                            2,
+                            2
+                        ],
+                        "processing_time": [
+                            2,
+                            2
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 8,
+                            "type": "NORMAL",
+                            "variance": 2.8284271247461903
+                        },
+                        "id": 12,
+                        "needs": [
+                            0,
+                            10,
+                            1,
+                            0
+                        ],
+                        "processing_time": [
+                            8,
+                            8
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 10,
+                            "type": "NORMAL",
+                            "variance": 3.1622776601683795
+                        },
+                        "id": 13,
+                        "needs": [
+                            5,
+                            9,
+                            0,
+                            9
+                        ],
+                        "processing_time": [
+                            10,
+                            10
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 3,
+                            "type": "NORMAL",
+                            "variance": 1.7320508075688772
+                        },
+                        "id": 14,
+                        "needs": [
+                            0,
+                            4,
+                            0,
+                            5
+                        ],
+                        "processing_time": [
+                            3,
+                            3
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 9,
+                            "type": "NORMAL",
+                            "variance": 3.0
+                        },
+                        "id": 15,
+                        "needs": [
+                            2,
+                            3,
+                            0,
+                            0
+                        ],
+                        "processing_time": [
+                            9,
+                            9
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 2,
+                            "type": "NORMAL",
+                            "variance": 1.4142135623730951
+                        },
+                        "id": 16,
+                        "needs": [
+                            0,
+                            0,
+                            0,
+                            3
+                        ],
+                        "processing_time": [
+                            2,
+                            2
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 2,
+                            "type": "NORMAL",
+                            "variance": 1.4142135623730951
+                        },
+                        "id": 17,
+                        "needs": [
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        "processing_time": [
+                            2,
+                            2
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 7,
+                            "type": "NORMAL",
+                            "variance": 2.6457513110645907
+                        },
+                        "id": 18,
+                        "needs": [
+                            1,
+                            0,
+                            0,
+                            4
+                        ],
+                        "processing_time": [
+                            7,
+                            7
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 10,
+                            "type": "NORMAL",
+                            "variance": 3.1622776601683795
+                        },
+                        "id": 19,
+                        "needs": [
+                            0,
+                            0,
+                            10,
+                            0
+                        ],
+                        "processing_time": [
+                            10,
+                            10
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 6,
+                            "type": "NORMAL",
+                            "variance": 2.449489742783178
+                        },
+                        "id": 20,
+                        "needs": [
+                            0,
+                            0,
+                            6,
+                            1
+                        ],
+                        "processing_time": [
+                            6,
+                            6
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 4,
+                            "type": "NORMAL",
+                            "variance": 2.0
+                        },
+                        "id": 21,
+                        "needs": [
+                            0,
+                            1,
+                            5,
+                            3
+                        ],
+                        "processing_time": [
+                            4,
+                            4
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 9,
+                            "type": "NORMAL",
+                            "variance": 3.0
+                        },
+                        "id": 22,
+                        "needs": [
+                            0,
+                            5,
+                            3,
+                            4
+                        ],
+                        "processing_time": [
+                            9,
+                            9
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 10,
+                            "type": "NORMAL",
+                            "variance": 3.1622776601683795
+                        },
+                        "id": 23,
+                        "needs": [
+                            6,
+                            0,
+                            0,
+                            2
+                        ],
+                        "processing_time": [
+                            10,
+                            10
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 8,
+                            "type": "NORMAL",
+                            "variance": 2.8284271247461903
+                        },
+                        "id": 24,
+                        "needs": [
+                            0,
+                            0,
+                            2,
+                            1
+                        ],
+                        "processing_time": [
+                            8,
+                            8
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 3,
+                            "type": "NORMAL",
+                            "variance": 1.7320508075688772
+                        },
+                        "id": 25,
+                        "needs": [
+                            0,
+                            0,
+                            0,
+                            8
+                        ],
+                        "processing_time": [
+                            3,
+                            3
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 2,
+                            "type": "NORMAL",
+                            "variance": 1.4142135623730951
+                        },
+                        "id": 26,
+                        "needs": [
+                            3,
+                            5,
+                            1,
+                            10
+                        ],
+                        "processing_time": [
+                            2,
+                            2
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 5,
+                            "type": "NORMAL",
+                            "variance": 2.23606797749979
+                        },
+                        "id": 27,
+                        "needs": [
+                            0,
+                            4,
+                            0,
+                            5
+                        ],
+                        "processing_time": [
+                            5,
+                            5
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 9,
+                            "type": "NORMAL",
+                            "variance": 3.0
+                        },
+                        "id": 28,
+                        "needs": [
+                            8,
+                            2,
+                            0,
+                            0
+                        ],
+                        "processing_time": [
+                            9,
+                            9
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 8,
+                            "type": "NORMAL",
+                            "variance": 2.8284271247461903
+                        },
+                        "id": 29,
+                        "needs": [
+                            10,
+                            10,
+                            10,
+                            7
+                        ],
+                        "processing_time": [
+                            8,
+                            8
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "mean": 4,
+                            "type": "NORMAL",
+                            "variance": 2.0
+                        },
+                        "id": 30,
+                        "needs": [
+                            4,
+                            0,
+                            9,
+                            0
+                        ],
+                        "processing_time": [
+                            4,
+                            4
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    },
+                    {
+                        "distribution": {
+                            "default": 0,
+                            "type": "DEFAULT"
+                        },
+                        "id": 31,
+                        "needs": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "processing_time": [
+                            0,
+                            0
+                        ],
+                        "product": 0,
+                        "product_id": 0,
+                        "sequence_id": 0
+                    }
+                ],
+                "deadline": 0,
+                "id": 0,
+                "name": "j3037_2",
+                "predecessors": [
+                    [],
+                    [
+                        0
+                    ],
+                    [
+                        0
+                    ],
+                    [
+                        0
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6,
+                        7
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6,
+                        10
+                    ],
+                    [
+                        4,
+                        8,
+                        9
+                    ],
+                    [
+                        1,
+                        5,
+                        12
+                    ],
+                    [
+                        1,
+                        2
+                    ],
+                    [
+                        6,
+                        7
+                    ],
+                    [
+                        4,
+                        12,
+                        16
+                    ],
+                    [
+                        4,
+                        9,
+                        14
+                    ],
+                    [
+                        7,
+                        9,
+                        11
+                    ],
+                    [
+                        11,
+                        16,
+                        18
+                    ],
+                    [
+                        10,
+                        13,
+                        16
+                    ],
+                    [
+                        10,
+                        15
+                    ],
+                    [
+                        8,
+                        17,
+                        20
+                    ],
+                    [
+                        8,
+                        19,
+                        22
+                    ],
+                    [
+                        11,
+                        18,
+                        21
+                    ],
+                    [
+                        14,
+                        21,
+                        24
+                    ],
+                    [
+                        17,
+                        19,
+                        25
+                    ],
+                    [
+                        23,
+                        26,
+                        27
+                    ],
+                    [
+                        3,
+                        12,
+                        22
+                    ],
+                    [
+                        14,
+                        19,
+                        22
+                    ],
+                    [
+                        28,
+                        29,
+                        30
+                    ]
+                ],
+                "successors": [
+                    [
+                        1,
+                        2,
+                        3
+                    ],
+                    [
+                        9,
+                        14,
+                        15
+                    ],
+                    [
+                        6,
+                        10,
+                        15
+                    ],
+                    [
+                        4,
+                        5,
+                        29
+                    ],
+                    [
+                        13,
+                        17,
+                        18
+                    ],
+                    [
+                        7,
+                        11,
+                        14
+                    ],
+                    [
+                        8,
+                        12,
+                        16
+                    ],
+                    [
+                        8,
+                        16,
+                        19
+                    ],
+                    [
+                        13,
+                        23,
+                        24
+                    ],
+                    [
+                        13,
+                        18,
+                        19
+                    ],
+                    [
+                        12,
+                        21,
+                        22
+                    ],
+                    [
+                        19,
+                        20,
+                        25
+                    ],
+                    [
+                        14,
+                        17,
+                        29
+                    ],
+                    [
+                        21
+                    ],
+                    [
+                        18,
+                        26,
+                        30
+                    ],
+                    [
+                        22
+                    ],
+                    [
+                        17,
+                        20,
+                        21
+                    ],
+                    [
+                        23,
+                        27
+                    ],
+                    [
+                        20,
+                        25
+                    ],
+                    [
+                        24,
+                        27,
+                        30
+                    ],
+                    [
+                        23
+                    ],
+                    [
+                        25,
+                        26
+                    ],
+                    [
+                        24,
+                        29,
+                        30
+                    ],
+                    [
+                        28
+                    ],
+                    [
+                        26
+                    ],
+                    [
+                        27
+                    ],
+                    [
+                        28
+                    ],
+                    [
+                        28
+                    ],
+                    [
+                        31
+                    ],
+                    [
+                        31
+                    ],
+                    [
+                        31
+                    ],
+                    []
+                ],
+                "temporal_relations": [
+                    {
+                        "predecessor": 0,
+                        "rel": 0,
+                        "successor": 1
+                    },
+                    {
+                        "predecessor": 0,
+                        "rel": 0,
+                        "successor": 2
+                    },
+                    {
+                        "predecessor": 0,
+                        "rel": 0,
+                        "successor": 3
+                    },
+                    {
+                        "predecessor": 1,
+                        "rel": 0,
+                        "successor": 9
+                    },
+                    {
+                        "predecessor": 1,
+                        "rel": 0,
+                        "successor": 14
+                    },
+                    {
+                        "predecessor": 1,
+                        "rel": 0,
+                        "successor": 15
+                    },
+                    {
+                        "predecessor": 2,
+                        "rel": 0,
+                        "successor": 6
+                    },
+                    {
+                        "predecessor": 2,
+                        "rel": 0,
+                        "successor": 10
+                    },
+                    {
+                        "predecessor": 2,
+                        "rel": 0,
+                        "successor": 15
+                    },
+                    {
+                        "predecessor": 3,
+                        "rel": 0,
+                        "successor": 4
+                    },
+                    {
+                        "predecessor": 3,
+                        "rel": 0,
+                        "successor": 5
+                    },
+                    {
+                        "predecessor": 3,
+                        "rel": 0,
+                        "successor": 29
+                    },
+                    {
+                        "predecessor": 4,
+                        "rel": 0,
+                        "successor": 13
+                    },
+                    {
+                        "predecessor": 4,
+                        "rel": 0,
+                        "successor": 17
+                    },
+                    {
+                        "predecessor": 4,
+                        "rel": 0,
+                        "successor": 18
+                    },
+                    {
+                        "predecessor": 5,
+                        "rel": 0,
+                        "successor": 7
+                    },
+                    {
+                        "predecessor": 5,
+                        "rel": 0,
+                        "successor": 11
+                    },
+                    {
+                        "predecessor": 5,
+                        "rel": 0,
+                        "successor": 14
+                    },
+                    {
+                        "predecessor": 6,
+                        "rel": 0,
+                        "successor": 8
+                    },
+                    {
+                        "predecessor": 6,
+                        "rel": 0,
+                        "successor": 12
+                    },
+                    {
+                        "predecessor": 6,
+                        "rel": 0,
+                        "successor": 16
+                    },
+                    {
+                        "predecessor": 7,
+                        "rel": 0,
+                        "successor": 8
+                    },
+                    {
+                        "predecessor": 7,
+                        "rel": 0,
+                        "successor": 16
+                    },
+                    {
+                        "predecessor": 7,
+                        "rel": 0,
+                        "successor": 19
+                    },
+                    {
+                        "predecessor": 8,
+                        "rel": 0,
+                        "successor": 13
+                    },
+                    {
+                        "predecessor": 8,
+                        "rel": 0,
+                        "successor": 23
+                    },
+                    {
+                        "predecessor": 8,
+                        "rel": 0,
+                        "successor": 24
+                    },
+                    {
+                        "predecessor": 9,
+                        "rel": 0,
+                        "successor": 13
+                    },
+                    {
+                        "predecessor": 9,
+                        "rel": 0,
+                        "successor": 18
+                    },
+                    {
+                        "predecessor": 9,
+                        "rel": 0,
+                        "successor": 19
+                    },
+                    {
+                        "predecessor": 10,
+                        "rel": 0,
+                        "successor": 12
+                    },
+                    {
+                        "predecessor": 10,
+                        "rel": 0,
+                        "successor": 21
+                    },
+                    {
+                        "predecessor": 10,
+                        "rel": 0,
+                        "successor": 22
+                    },
+                    {
+                        "predecessor": 11,
+                        "rel": 0,
+                        "successor": 19
+                    },
+                    {
+                        "predecessor": 11,
+                        "rel": 0,
+                        "successor": 20
+                    },
+                    {
+                        "predecessor": 11,
+                        "rel": 0,
+                        "successor": 25
+                    },
+                    {
+                        "predecessor": 12,
+                        "rel": 0,
+                        "successor": 14
+                    },
+                    {
+                        "predecessor": 12,
+                        "rel": 0,
+                        "successor": 17
+                    },
+                    {
+                        "predecessor": 12,
+                        "rel": 0,
+                        "successor": 29
+                    },
+                    {
+                        "predecessor": 13,
+                        "rel": 0,
+                        "successor": 21
+                    },
+                    {
+                        "predecessor": 14,
+                        "rel": 0,
+                        "successor": 18
+                    },
+                    {
+                        "predecessor": 14,
+                        "rel": 0,
+                        "successor": 26
+                    },
+                    {
+                        "predecessor": 14,
+                        "rel": 0,
+                        "successor": 30
+                    },
+                    {
+                        "predecessor": 15,
+                        "rel": 0,
+                        "successor": 22
+                    },
+                    {
+                        "predecessor": 16,
+                        "rel": 0,
+                        "successor": 17
+                    },
+                    {
+                        "predecessor": 16,
+                        "rel": 0,
+                        "successor": 20
+                    },
+                    {
+                        "predecessor": 16,
+                        "rel": 0,
+                        "successor": 21
+                    },
+                    {
+                        "predecessor": 17,
+                        "rel": 0,
+                        "successor": 23
+                    },
+                    {
+                        "predecessor": 17,
+                        "rel": 0,
+                        "successor": 27
+                    },
+                    {
+                        "predecessor": 18,
+                        "rel": 0,
+                        "successor": 20
+                    },
+                    {
+                        "predecessor": 18,
+                        "rel": 0,
+                        "successor": 25
+                    },
+                    {
+                        "predecessor": 19,
+                        "rel": 0,
+                        "successor": 24
+                    },
+                    {
+                        "predecessor": 19,
+                        "rel": 0,
+                        "successor": 27
+                    },
+                    {
+                        "predecessor": 19,
+                        "rel": 0,
+                        "successor": 30
+                    },
+                    {
+                        "predecessor": 20,
+                        "rel": 0,
+                        "successor": 23
+                    },
+                    {
+                        "predecessor": 21,
+                        "rel": 0,
+                        "successor": 25
+                    },
+                    {
+                        "predecessor": 21,
+                        "rel": 0,
+                        "successor": 26
+                    },
+                    {
+                        "predecessor": 22,
+                        "rel": 0,
+                        "successor": 24
+                    },
+                    {
+                        "predecessor": 22,
+                        "rel": 0,
+                        "successor": 29
+                    },
+                    {
+                        "predecessor": 22,
+                        "rel": 0,
+                        "successor": 30
+                    },
+                    {
+                        "predecessor": 23,
+                        "rel": 0,
+                        "successor": 28
+                    },
+                    {
+                        "predecessor": 24,
+                        "rel": 0,
+                        "successor": 26
+                    },
+                    {
+                        "predecessor": 25,
+                        "rel": 0,
+                        "successor": 27
+                    },
+                    {
+                        "predecessor": 26,
+                        "rel": 0,
+                        "successor": 28
+                    },
+                    {
+                        "predecessor": 27,
+                        "rel": 0,
+                        "successor": 28
+                    },
+                    {
+                        "predecessor": 28,
+                        "rel": 0,
+                        "successor": 31
+                    },
+                    {
+                        "predecessor": 29,
+                        "rel": 0,
+                        "successor": 31
+                    },
+                    {
+                        "predecessor": 30,
+                        "rel": 0,
+                        "successor": 31
+                    }
+                ]
+            }
+        ],
+        "resource_names": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "id": 1,
+    "name": "j3037_2",
+    "product_ids": [
+        0
+    ],
+    "products": [
+        {
+            "activities": [
+                {
+                    "distribution": {
+                        "default": 0,
+                        "type": "DEFAULT"
+                    },
+                    "id": 0,
+                    "needs": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "processing_time": [
+                        0,
+                        0
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 3,
+                        "type": "NORMAL",
+                        "variance": 1.7320508075688772
+                    },
+                    "id": 1,
+                    "needs": [
+                        0,
+                        0,
+                        0,
+                        3
+                    ],
+                    "processing_time": [
+                        3,
+                        3
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 2,
+                        "type": "NORMAL",
+                        "variance": 1.4142135623730951
+                    },
+                    "id": 2,
+                    "needs": [
+                        10,
+                        0,
+                        0,
+                        0
+                    ],
+                    "processing_time": [
+                        2,
+                        2
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 8,
+                        "type": "NORMAL",
+                        "variance": 2.8284271247461903
+                    },
+                    "id": 3,
+                    "needs": [
+                        0,
+                        7,
+                        7,
+                        0
+                    ],
+                    "processing_time": [
+                        8,
+                        8
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 4,
+                        "type": "NORMAL",
+                        "variance": 2.0
+                    },
+                    "id": 4,
+                    "needs": [
+                        2,
+                        0,
+                        9,
+                        6
+                    ],
+                    "processing_time": [
+                        4,
+                        4
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 3,
+                        "type": "NORMAL",
+                        "variance": 1.7320508075688772
+                    },
+                    "id": 5,
+                    "needs": [
+                        0,
+                        0,
+                        8,
+                        0
+                    ],
+                    "processing_time": [
+                        3,
+                        3
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 4,
+                        "type": "NORMAL",
+                        "variance": 2.0
+                    },
+                    "id": 6,
+                    "needs": [
+                        0,
+                        5,
+                        0,
+                        0
+                    ],
+                    "processing_time": [
+                        4,
+                        4
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 1,
+                        "type": "NORMAL",
+                        "variance": 1.0
+                    },
+                    "id": 7,
+                    "needs": [
+                        9,
+                        0,
+                        0,
+                        0
+                    ],
+                    "processing_time": [
+                        1,
+                        1
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 5,
+                        "type": "NORMAL",
+                        "variance": 2.23606797749979
+                    },
+                    "id": 8,
+                    "needs": [
+                        0,
+                        0,
+                        3,
+                        0
+                    ],
+                    "processing_time": [
+                        5,
+                        5
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 3,
+                        "type": "NORMAL",
+                        "variance": 1.7320508075688772
+                    },
+                    "id": 9,
+                    "needs": [
+                        4,
+                        0,
+                        8,
+                        0
+                    ],
+                    "processing_time": [
+                        3,
+                        3
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 4,
+                        "type": "NORMAL",
+                        "variance": 2.0
+                    },
+                    "id": 10,
+                    "needs": [
+                        2,
+                        0,
+                        4,
+                        4
+                    ],
+                    "processing_time": [
+                        4,
+                        4
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 2,
+                        "type": "NORMAL",
+                        "variance": 1.4142135623730951
+                    },
+                    "id": 11,
+                    "needs": [
+                        5,
+                        3,
+                        2,
+                        2
+                    ],
+                    "processing_time": [
+                        2,
+                        2
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 8,
+                        "type": "NORMAL",
+                        "variance": 2.8284271247461903
+                    },
+                    "id": 12,
+                    "needs": [
+                        0,
+                        10,
+                        1,
+                        0
+                    ],
+                    "processing_time": [
+                        8,
+                        8
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 10,
+                        "type": "NORMAL",
+                        "variance": 3.1622776601683795
+                    },
+                    "id": 13,
+                    "needs": [
+                        5,
+                        9,
+                        0,
+                        9
+                    ],
+                    "processing_time": [
+                        10,
+                        10
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 3,
+                        "type": "NORMAL",
+                        "variance": 1.7320508075688772
+                    },
+                    "id": 14,
+                    "needs": [
+                        0,
+                        4,
+                        0,
+                        5
+                    ],
+                    "processing_time": [
+                        3,
+                        3
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 9,
+                        "type": "NORMAL",
+                        "variance": 3.0
+                    },
+                    "id": 15,
+                    "needs": [
+                        2,
+                        3,
+                        0,
+                        0
+                    ],
+                    "processing_time": [
+                        9,
+                        9
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 2,
+                        "type": "NORMAL",
+                        "variance": 1.4142135623730951
+                    },
+                    "id": 16,
+                    "needs": [
+                        0,
+                        0,
+                        0,
+                        3
+                    ],
+                    "processing_time": [
+                        2,
+                        2
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 2,
+                        "type": "NORMAL",
+                        "variance": 1.4142135623730951
+                    },
+                    "id": 17,
+                    "needs": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "processing_time": [
+                        2,
+                        2
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 7,
+                        "type": "NORMAL",
+                        "variance": 2.6457513110645907
+                    },
+                    "id": 18,
+                    "needs": [
+                        1,
+                        0,
+                        0,
+                        4
+                    ],
+                    "processing_time": [
+                        7,
+                        7
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 10,
+                        "type": "NORMAL",
+                        "variance": 3.1622776601683795
+                    },
+                    "id": 19,
+                    "needs": [
+                        0,
+                        0,
+                        10,
+                        0
+                    ],
+                    "processing_time": [
+                        10,
+                        10
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 6,
+                        "type": "NORMAL",
+                        "variance": 2.449489742783178
+                    },
+                    "id": 20,
+                    "needs": [
+                        0,
+                        0,
+                        6,
+                        1
+                    ],
+                    "processing_time": [
+                        6,
+                        6
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 4,
+                        "type": "NORMAL",
+                        "variance": 2.0
+                    },
+                    "id": 21,
+                    "needs": [
+                        0,
+                        1,
+                        5,
+                        3
+                    ],
+                    "processing_time": [
+                        4,
+                        4
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 9,
+                        "type": "NORMAL",
+                        "variance": 3.0
+                    },
+                    "id": 22,
+                    "needs": [
+                        0,
+                        5,
+                        3,
+                        4
+                    ],
+                    "processing_time": [
+                        9,
+                        9
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 10,
+                        "type": "NORMAL",
+                        "variance": 3.1622776601683795
+                    },
+                    "id": 23,
+                    "needs": [
+                        6,
+                        0,
+                        0,
+                        2
+                    ],
+                    "processing_time": [
+                        10,
+                        10
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 8,
+                        "type": "NORMAL",
+                        "variance": 2.8284271247461903
+                    },
+                    "id": 24,
+                    "needs": [
+                        0,
+                        0,
+                        2,
+                        1
+                    ],
+                    "processing_time": [
+                        8,
+                        8
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 3,
+                        "type": "NORMAL",
+                        "variance": 1.7320508075688772
+                    },
+                    "id": 25,
+                    "needs": [
+                        0,
+                        0,
+                        0,
+                        8
+                    ],
+                    "processing_time": [
+                        3,
+                        3
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 2,
+                        "type": "NORMAL",
+                        "variance": 1.4142135623730951
+                    },
+                    "id": 26,
+                    "needs": [
+                        3,
+                        5,
+                        1,
+                        10
+                    ],
+                    "processing_time": [
+                        2,
+                        2
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 5,
+                        "type": "NORMAL",
+                        "variance": 2.23606797749979
+                    },
+                    "id": 27,
+                    "needs": [
+                        0,
+                        4,
+                        0,
+                        5
+                    ],
+                    "processing_time": [
+                        5,
+                        5
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 9,
+                        "type": "NORMAL",
+                        "variance": 3.0
+                    },
+                    "id": 28,
+                    "needs": [
+                        8,
+                        2,
+                        0,
+                        0
+                    ],
+                    "processing_time": [
+                        9,
+                        9
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 8,
+                        "type": "NORMAL",
+                        "variance": 2.8284271247461903
+                    },
+                    "id": 29,
+                    "needs": [
+                        10,
+                        10,
+                        10,
+                        7
+                    ],
+                    "processing_time": [
+                        8,
+                        8
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "mean": 4,
+                        "type": "NORMAL",
+                        "variance": 2.0
+                    },
+                    "id": 30,
+                    "needs": [
+                        4,
+                        0,
+                        9,
+                        0
+                    ],
+                    "processing_time": [
+                        4,
+                        4
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                },
+                {
+                    "distribution": {
+                        "default": 0,
+                        "type": "DEFAULT"
+                    },
+                    "id": 31,
+                    "needs": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "processing_time": [
+                        0,
+                        0
+                    ],
+                    "product": 0,
+                    "product_id": 0,
+                    "sequence_id": 0
+                }
+            ],
+            "deadline": 0,
+            "id": 0,
+            "name": "j3037_2",
+            "predecessors": [
+                [],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    3
+                ],
+                [
+                    3
+                ],
+                [
+                    2
+                ],
+                [
+                    5
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    1
+                ],
+                [
+                    2
+                ],
+                [
+                    5
+                ],
+                [
+                    6,
+                    10
+                ],
+                [
+                    4,
+                    8,
+                    9
+                ],
+                [
+                    1,
+                    5,
+                    12
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    6,
+                    7
+                ],
+                [
+                    4,
+                    12,
+                    16
+                ],
+                [
+                    4,
+                    9,
+                    14
+                ],
+                [
+                    7,
+                    9,
+                    11
+                ],
+                [
+                    11,
+                    16,
+                    18
+                ],
+                [
+                    10,
+                    13,
+                    16
+                ],
+                [
+                    10,
+                    15
+                ],
+                [
+                    8,
+                    17,
+                    20
+                ],
+                [
+                    8,
+                    19,
+                    22
+                ],
+                [
+                    11,
+                    18,
+                    21
+                ],
+                [
+                    14,
+                    21,
+                    24
+                ],
+                [
+                    17,
+                    19,
+                    25
+                ],
+                [
+                    23,
+                    26,
+                    27
+                ],
+                [
+                    3,
+                    12,
+                    22
+                ],
+                [
+                    14,
+                    19,
+                    22
+                ],
+                [
+                    28,
+                    29,
+                    30
+                ]
+            ],
+            "successors": [
+                [
+                    1,
+                    2,
+                    3
+                ],
+                [
+                    9,
+                    14,
+                    15
+                ],
+                [
+                    6,
+                    10,
+                    15
+                ],
+                [
+                    4,
+                    5,
+                    29
+                ],
+                [
+                    13,
+                    17,
+                    18
+                ],
+                [
+                    7,
+                    11,
+                    14
+                ],
+                [
+                    8,
+                    12,
+                    16
+                ],
+                [
+                    8,
+                    16,
+                    19
+                ],
+                [
+                    13,
+                    23,
+                    24
+                ],
+                [
+                    13,
+                    18,
+                    19
+                ],
+                [
+                    12,
+                    21,
+                    22
+                ],
+                [
+                    19,
+                    20,
+                    25
+                ],
+                [
+                    14,
+                    17,
+                    29
+                ],
+                [
+                    21
+                ],
+                [
+                    18,
+                    26,
+                    30
+                ],
+                [
+                    22
+                ],
+                [
+                    17,
+                    20,
+                    21
+                ],
+                [
+                    23,
+                    27
+                ],
+                [
+                    20,
+                    25
+                ],
+                [
+                    24,
+                    27,
+                    30
+                ],
+                [
+                    23
+                ],
+                [
+                    25,
+                    26
+                ],
+                [
+                    24,
+                    29,
+                    30
+                ],
+                [
+                    28
+                ],
+                [
+                    26
+                ],
+                [
+                    27
+                ],
+                [
+                    28
+                ],
+                [
+                    28
+                ],
+                [
+                    31
+                ],
+                [
+                    31
+                ],
+                [
+                    31
+                ],
+                []
+            ],
+            "temporal_relations": [
+                {
+                    "predecessor": 0,
+                    "rel": 0,
+                    "successor": 1
+                },
+                {
+                    "predecessor": 0,
+                    "rel": 0,
+                    "successor": 2
+                },
+                {
+                    "predecessor": 0,
+                    "rel": 0,
+                    "successor": 3
+                },
+                {
+                    "predecessor": 1,
+                    "rel": 0,
+                    "successor": 9
+                },
+                {
+                    "predecessor": 1,
+                    "rel": 0,
+                    "successor": 14
+                },
+                {
+                    "predecessor": 1,
+                    "rel": 0,
+                    "successor": 15
+                },
+                {
+                    "predecessor": 2,
+                    "rel": 0,
+                    "successor": 6
+                },
+                {
+                    "predecessor": 2,
+                    "rel": 0,
+                    "successor": 10
+                },
+                {
+                    "predecessor": 2,
+                    "rel": 0,
+                    "successor": 15
+                },
+                {
+                    "predecessor": 3,
+                    "rel": 0,
+                    "successor": 4
+                },
+                {
+                    "predecessor": 3,
+                    "rel": 0,
+                    "successor": 5
+                },
+                {
+                    "predecessor": 3,
+                    "rel": 0,
+                    "successor": 29
+                },
+                {
+                    "predecessor": 4,
+                    "rel": 0,
+                    "successor": 13
+                },
+                {
+                    "predecessor": 4,
+                    "rel": 0,
+                    "successor": 17
+                },
+                {
+                    "predecessor": 4,
+                    "rel": 0,
+                    "successor": 18
+                },
+                {
+                    "predecessor": 5,
+                    "rel": 0,
+                    "successor": 7
+                },
+                {
+                    "predecessor": 5,
+                    "rel": 0,
+                    "successor": 11
+                },
+                {
+                    "predecessor": 5,
+                    "rel": 0,
+                    "successor": 14
+                },
+                {
+                    "predecessor": 6,
+                    "rel": 0,
+                    "successor": 8
+                },
+                {
+                    "predecessor": 6,
+                    "rel": 0,
+                    "successor": 12
+                },
+                {
+                    "predecessor": 6,
+                    "rel": 0,
+                    "successor": 16
+                },
+                {
+                    "predecessor": 7,
+                    "rel": 0,
+                    "successor": 8
+                },
+                {
+                    "predecessor": 7,
+                    "rel": 0,
+                    "successor": 16
+                },
+                {
+                    "predecessor": 7,
+                    "rel": 0,
+                    "successor": 19
+                },
+                {
+                    "predecessor": 8,
+                    "rel": 0,
+                    "successor": 13
+                },
+                {
+                    "predecessor": 8,
+                    "rel": 0,
+                    "successor": 23
+                },
+                {
+                    "predecessor": 8,
+                    "rel": 0,
+                    "successor": 24
+                },
+                {
+                    "predecessor": 9,
+                    "rel": 0,
+                    "successor": 13
+                },
+                {
+                    "predecessor": 9,
+                    "rel": 0,
+                    "successor": 18
+                },
+                {
+                    "predecessor": 9,
+                    "rel": 0,
+                    "successor": 19
+                },
+                {
+                    "predecessor": 10,
+                    "rel": 0,
+                    "successor": 12
+                },
+                {
+                    "predecessor": 10,
+                    "rel": 0,
+                    "successor": 21
+                },
+                {
+                    "predecessor": 10,
+                    "rel": 0,
+                    "successor": 22
+                },
+                {
+                    "predecessor": 11,
+                    "rel": 0,
+                    "successor": 19
+                },
+                {
+                    "predecessor": 11,
+                    "rel": 0,
+                    "successor": 20
+                },
+                {
+                    "predecessor": 11,
+                    "rel": 0,
+                    "successor": 25
+                },
+                {
+                    "predecessor": 12,
+                    "rel": 0,
+                    "successor": 14
+                },
+                {
+                    "predecessor": 12,
+                    "rel": 0,
+                    "successor": 17
+                },
+                {
+                    "predecessor": 12,
+                    "rel": 0,
+                    "successor": 29
+                },
+                {
+                    "predecessor": 13,
+                    "rel": 0,
+                    "successor": 21
+                },
+                {
+                    "predecessor": 14,
+                    "rel": 0,
+                    "successor": 18
+                },
+                {
+                    "predecessor": 14,
+                    "rel": 0,
+                    "successor": 26
+                },
+                {
+                    "predecessor": 14,
+                    "rel": 0,
+                    "successor": 30
+                },
+                {
+                    "predecessor": 15,
+                    "rel": 0,
+                    "successor": 22
+                },
+                {
+                    "predecessor": 16,
+                    "rel": 0,
+                    "successor": 17
+                },
+                {
+                    "predecessor": 16,
+                    "rel": 0,
+                    "successor": 20
+                },
+                {
+                    "predecessor": 16,
+                    "rel": 0,
+                    "successor": 21
+                },
+                {
+                    "predecessor": 17,
+                    "rel": 0,
+                    "successor": 23
+                },
+                {
+                    "predecessor": 17,
+                    "rel": 0,
+                    "successor": 27
+                },
+                {
+                    "predecessor": 18,
+                    "rel": 0,
+                    "successor": 20
+                },
+                {
+                    "predecessor": 18,
+                    "rel": 0,
+                    "successor": 25
+                },
+                {
+                    "predecessor": 19,
+                    "rel": 0,
+                    "successor": 24
+                },
+                {
+                    "predecessor": 19,
+                    "rel": 0,
+                    "successor": 27
+                },
+                {
+                    "predecessor": 19,
+                    "rel": 0,
+                    "successor": 30
+                },
+                {
+                    "predecessor": 20,
+                    "rel": 0,
+                    "successor": 23
+                },
+                {
+                    "predecessor": 21,
+                    "rel": 0,
+                    "successor": 25
+                },
+                {
+                    "predecessor": 21,
+                    "rel": 0,
+                    "successor": 26
+                },
+                {
+                    "predecessor": 22,
+                    "rel": 0,
+                    "successor": 24
+                },
+                {
+                    "predecessor": 22,
+                    "rel": 0,
+                    "successor": 29
+                },
+                {
+                    "predecessor": 22,
+                    "rel": 0,
+                    "successor": 30
+                },
+                {
+                    "predecessor": 23,
+                    "rel": 0,
+                    "successor": 28
+                },
+                {
+                    "predecessor": 24,
+                    "rel": 0,
+                    "successor": 26
+                },
+                {
+                    "predecessor": 25,
+                    "rel": 0,
+                    "successor": 27
+                },
+                {
+                    "predecessor": 26,
+                    "rel": 0,
+                    "successor": 28
+                },
+                {
+                    "predecessor": 27,
+                    "rel": 0,
+                    "successor": 28
+                },
+                {
+                    "predecessor": 28,
+                    "rel": 0,
+                    "successor": 31
+                },
+                {
+                    "predecessor": 29,
+                    "rel": 0,
+                    "successor": 31
+                },
+                {
+                    "predecessor": 30,
+                    "rel": 0,
+                    "successor": 31
+                }
+            ]
+        }
+    ],
+    "sequence": [],
+    "size": 1
+}

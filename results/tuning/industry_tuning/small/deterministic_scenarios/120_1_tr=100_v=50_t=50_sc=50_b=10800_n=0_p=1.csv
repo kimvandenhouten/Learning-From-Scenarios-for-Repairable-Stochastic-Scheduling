@@ -1,0 +1,2 @@
+,problem,instance,noise_factor,scenarios,budget,train_size,test_size,training_obj,training_regret,training_ph_regret,val_obj,val_regret,val_ph_regret,test_obj,test_regret,test_ph_regret,total_time,training_loss,std_training_loss,val_loss,std_val,test_loss,std_test_loss,penalty_factor
+0,RCPSP_penalty,120_1_factory_1,0,50,10800,100,50,4354.71,48.66,73.81937134502923,4368.24,54.4,82.67095029239766,4365.8,49.1,76.22068713450292,0.39913272857666016,73.81937134502923,0.0,82.67095029239766,0.0,76.22068713450292,0.0,1

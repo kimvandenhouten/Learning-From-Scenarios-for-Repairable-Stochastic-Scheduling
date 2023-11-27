@@ -1,0 +1,2 @@
+,problem,instance,num_tasks,num_resources,total_capacity,noise_factor,scenarios,budget,train_size,test_size,training_obj,training_regret,training_ph_regret,val_obj,val_regret,val_ph_regret,test_obj,test_regret,test_ph_regret,total_time,training_loss,std_training_loss,val_loss,std_val,test_loss,std_test_loss,penalty_factor,algorithm
+0,RCPSP_benchmark,j903_4,92,4,88,0,50,3600,100,50,112.31,7.77,335.32,110.88,7.4,292.96,112.08,6.7,326.92,0.14600253105163574,335.32,176.90974422004007,292.96,116.9035431456207,326.92,115.57211428368005,1,deterministic

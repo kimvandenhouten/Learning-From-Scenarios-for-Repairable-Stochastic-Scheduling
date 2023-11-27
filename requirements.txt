@@ -1,0 +1,12 @@
+docplex==2.25.236
+matplotlib==3.7.1
+numpy==1.25.0
+ortools==9.6.2534
+pandas==1.5.3
+scikit_learn==1.2.2
+scipy==1.10.1
+seaborn==0.13.0
+simpy==4.0.1
+tensorflow==2.11.0
+tensorflow_probability==0.14.0
+torch==2.2.0.dev20231106

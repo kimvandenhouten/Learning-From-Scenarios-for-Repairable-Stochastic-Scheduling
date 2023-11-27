@@ -1,0 +1,2 @@
+,problem,instance,seed,train_size,test_size,epochs,batch_size,optimizer,learning rate,training_obj,val_obj,test_obj,training_time,inference_time,total_time,stop_criterium,budget,noise_factor,scenarios,training_loss,std_training_loss,val_loss,std_val,test_loss,std_test_loss,penalty_factor,algorithm
+0,RCPSP_benchmark,j301_2,1,100,50,697,10,Adam,0.001,53.03,52.74,55.18,1800.162434577942,1.2480742931365967,1801.4105088710785,time,1800,0,50,6.61658,4.182908679806434,6.877300000000002,4.6029012383495695,8.0551,8.29470707921624,0.031,decision-focused
