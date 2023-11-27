@@ -174,6 +174,6 @@ for a in [1, 2, 3]:
             print(f'Test post-hoc regret {test_ph_regret}')
 
             results = pd.DataFrame(results)
-            results.to_csv(f'results/j90/{penalty_type}/det_{instance_name}_tr={train_size}_'
+            results.to_csv(f'results/det_{instance_name}_tr={train_size}_'
                            f'v={val_size}_t={test_size}_sc={nr_scenarios}_b={budget}_n={noise_factor}_p={penalty_factor}s={seed}.csv')
 

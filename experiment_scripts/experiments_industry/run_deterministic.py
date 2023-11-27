@@ -185,6 +185,6 @@ for id in [1, 2, 3, 4, 5]:
             print(f'Std test post-hoc regret {test_ph_regret_std}')
 
             results = pd.DataFrame(results)
-            results.to_csv(f'results/industry_small/{penalty_type}/det_{instance_size}_{id}_tr={train_size}_'
+            results.to_csv(f'results/det_{instance_size}_{id}_tr={train_size}_'
                            f'v={val_size}_t={test_size}_sc={nr_scenarios}_b={budget}_n={noise_factor}_p={penalty_factor}s={seed}.csv')
 

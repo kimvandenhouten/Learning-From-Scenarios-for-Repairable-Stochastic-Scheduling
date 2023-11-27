@@ -97,7 +97,7 @@ for id in [1, 2, 3, 4, 5]:
 
                     plt.plot(losses_avg)
                     plt.savefig(
-                        f'plots/{problem_type}/problem={problem_type}_instance={instance_name}_seed={seed}_train_size{train_size}_'
+                        f'plots/problem={problem_type}_instance={instance_name}_seed={seed}_train_size{train_size}_'
                         f'val_size={val_size}_noise_factor={noise_factor}_scen={nr_scenarios}_p={penalty_factor}.png')
                     plt.close()
 
@@ -150,7 +150,7 @@ for id in [1, 2, 3, 4, 5]:
                         elif loss_type == "post_hoc_regret":
                             losses_avg.append(np.mean(post_hoc_regrets))
                         plt.plot(losses_avg)
-                        plt.savefig(f'plots/{problem_type}/problem={problem_type}_instance={instance_name}_seed={seed}_train_size{train_size}_'
+                        plt.savefig(f'plots/problem={problem_type}_instance={instance_name}_seed={seed}_train_size{train_size}_'
                                     f'val_size={val_size}_noise_factor={noise_factor}_scen={nr_scenarios}_p={penalty_factor}.png')
                         plt.close()
 
@@ -234,7 +234,7 @@ for id in [1, 2, 3, 4, 5]:
                            }]
 
                 results = pd.DataFrame(results)
-                results.to_csv(f'results/industry/{penalty_type}/sfge_{instance_name}_s={seed}_ts_{train_size}_vs={val_size}'
+                results.to_csv(f'results/sfge_{instance_name}_s={seed}_ts_{train_size}_vs={val_size}'
                                f'_stop={stop_criterium}_b={budget}_bs={batch_size}_opt={method}'
                                f'_lr={lr}_n={noise_factor}_scen={nr_scenarios}_p={penalty_factor}.csv')
 

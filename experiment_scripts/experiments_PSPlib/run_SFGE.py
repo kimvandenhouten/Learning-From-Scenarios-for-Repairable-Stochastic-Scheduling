@@ -225,7 +225,7 @@ for a in [1, 2, 3]:
                            }]
 
                 results = pd.DataFrame(results)
-                results.to_csv(f'results/j90/{penalty_type}/sfge_{instance_name}_s={seed}_ts_{train_size}_vs={val_size}'
+                results.to_csv(f'results/sfge_{instance_name}_s={seed}_ts_{train_size}_vs={val_size}'
                                f'_stop={stop_criterium}_b={budget}_bs={batch_size}_opt={method}'
                                f'_lr={lr}_n={noise_factor}_scen={nr_scenarios}_p={penalty_factor}.csv')
 
