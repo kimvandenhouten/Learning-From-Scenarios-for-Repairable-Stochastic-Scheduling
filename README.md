@@ -6,7 +6,7 @@ This repository contains the code that corresponds to the CPAIOR 2024 submission
 Besides the installation of the requirements.txt, it is needed to install the IBM Cplex Optimization Studio (full edition, available via an academic licence)  in order to be able to run all experiments in this repository. Furthermore, all scripts in this repository require the working directory to be "/path/to/Learning-From-Scenarios-for-Repairable-Stochastic-Scheduling", and for this directory to be in PYTHONPATH. Finally, you may need to make the CPLEX optimizer available to the scripts by creating a symbolic link in the virtualenv, for example (adjust paths for your system):
 
 Shell
-ln -s /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/bin/x86-64_linux/cpoptimizer /path/to
+`ln -s /opt/ibm/ILOG/CPLEX_Studio2211/cpoptimizer/bin/x86-64_linux/cpoptimizer /path/to/Learning-From-Scenarios-for-Repairable-Stochastic-Scheduling/venv/bin/`
 
 ## Instances
 The experiments shown in the papers use the following instances:
