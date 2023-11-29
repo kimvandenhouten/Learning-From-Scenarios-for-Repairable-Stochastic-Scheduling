@@ -3,7 +3,7 @@
 This repository contains the code that corresponds to the CPAIOR 2024 submission Learning From Scenarios for Repairable Stochastic Scheduling by Kim van den Houten et al.
 
 ## Installation and practical issues
-Besides the installation of the requirements.txt, it is needed to install the IBM Cplex Optimization Studio in order to be able to run all experiments in this repository. Furthermore, for all scripts in this repository it holds that the working directory should be set to "LOCATION_PATH/Learning-From-Scenarios-for-Repairable-Stochastic-Scheduling, where LOCATION_PATH should be replaced with the users location for this repository.
+Besides the installation of the requirements.txt, it is needed to install the IBM Cplex Optimization Studio in order to be able to run all experiments in this repository. Furthermore, all scripts in this repository require the working directory to be "/path/to/Learning-From-Scenarios-for-Repairable-Stochastic-Scheduling", and for this directory to be in PYTHONPATH.
 
 ## Instances
 The experiments shown in the papers use the following instances:
