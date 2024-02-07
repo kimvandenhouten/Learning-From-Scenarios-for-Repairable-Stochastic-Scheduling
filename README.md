@@ -49,7 +49,7 @@ Small industry instances: time budget: 5_i instances 600 sec, 10_i instances 120
 - stochastic, 10 scenarios
 - decision-focused, 25 scenarios
 
-Large industry instances: time budget: 2_i instances 4800 sec, 60_i instances 3600 sec, the number of scenarios:
+Large industry instances: time budget: 40_i instances 3600 sec, 60_i instances 3600 sec, the number of scenarios:
 
 - deterministic, 100 scenarios
 - stochastic, 10 scenarios
