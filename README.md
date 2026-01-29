@@ -1,6 +1,8 @@
 # Learning From Scenarios for Repairable Stochastic Scheduling
 
-This repository contains the code that corresponds to the CPAIOR 2024 submission Learning From Scenarios for Repairable Stochastic Scheduling by Kim van den Houten et al.
+This repository contains the implementation of the algorithms described in the paper:
+
+van den Houten, K., Tax, D. M., Freydell, E., & de Weerdt, M. (2024, May). Learning from scenarios for repairable stochastic scheduling. In International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research (pp. 234-242). Cham: Springer Nature Switzerland.
 
 ## Installation and practical issues
 Besides the installation of the requirements.txt, it is needed to install the IBM CPLEX Optimization Studio (full edition, available via an academic licence) in order to be able to run all experiments in this repository.
